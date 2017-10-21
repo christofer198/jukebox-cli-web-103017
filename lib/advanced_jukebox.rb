@@ -55,7 +55,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(song)
+def run(my_songs)
 
     help
     puts "Please enter a command:"
