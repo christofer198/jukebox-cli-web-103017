@@ -60,12 +60,10 @@ def run(song)
             play(song)
         elsif u_input == "help"
             help
-        elsif u_input == "exit"
-          exit_jukebox
-          break
         end
         puts "Please enter a command:"
         u_input = gets.chomp
     end
+    exit_jukebox
 
 end
