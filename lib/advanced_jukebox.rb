@@ -45,7 +45,7 @@ def play(my_songs)
   if my_songs[u_input] == nil
     puts "Invalid input, please try again"
   else
-    system 'open #{my_songs[u_input]}'
+    system "open #{my_songs[u_input]}"
   end
 
 end
