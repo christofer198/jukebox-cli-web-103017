@@ -62,9 +62,9 @@ def run(my_songs)
     u_input = gets.chomp
     until u_input == "exit"
         if u_input == "list"
-            list(song)
+            list(my_songs)
         elsif u_input == "play"
-            play(song)
+            play(my_songs)
         elsif u_input == "help"
             help
         end
